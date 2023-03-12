@@ -26,3 +26,18 @@ ApplicationContext loads all the singleton beans upon the startup.
 
 <img width="943" alt="Screenshot 2023-03-12 at 11 52 14 PM" src="https://user-images.githubusercontent.com/43849911/224564481-9b120dad-935c-49b3-be03-9d445b3e0f86.png">
 
+<img width="940" alt="Screenshot 2023-03-12 at 11 53 41 PM" src="https://user-images.githubusercontent.com/43849911/224564546-da44a1e9-37c5-4a9a-a16f-c0a5ddbff1e4.png">
+
+```
+Product2 is eager initialization and Product1 is lazy initialization
+
+2023-03-12T23:53:14.515+05:30  INFO 3726 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 637 ms
+Product2 initialized
+2023-03-12T23:53:14.612+05:30  INFO 3726 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-12T23:53:14.628+05:30  INFO 3726 --- [           main] com.sai.Lazy.LazyApplication             : Started LazyApplication in 1.069 seconds (process running for 1.51)
+Product1 initialized
+Product1 : mac
+Product2 : ubuntu
+```
+
+
