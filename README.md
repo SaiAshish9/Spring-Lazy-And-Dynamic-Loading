@@ -5,3 +5,15 @@ https://www.imperva.com/learn/performance/lazy-loading/#:~:text=rendered%20or%20
 https://github.com/jeeftor/SpringBoot-Dynamic-JarLoad
 
 https://medium.com/@Jeef/dynamically-loading-libraries-into-a-springboot-application-at-run-time-80639ee5aab
+
+```
+Spring boot lazy initialization was introduced at 2.2 version. 
+
+Sometimes , we might need some of the beans to lazy initialize due to project requirements at the time of application start.
+
+
+ApplicationContext and
+BeanFactory by default lazy loads. It creates the beans only one time and loads when they are called via get method
+
+ApplicationContext loads all the singleton beans upon the startup.
+```
