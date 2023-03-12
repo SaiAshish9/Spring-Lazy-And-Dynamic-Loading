@@ -17,3 +17,8 @@ BeanFactory by default lazy loads. It creates the beans only one time and loads 
 
 ApplicationContext loads all the singleton beans upon the startup.
 ```
+
+<img width="1050" alt="Screenshot 2023-03-12 at 11 46 21 PM" src="https://user-images.githubusercontent.com/43849911/224564205-6ffb24a1-ac8e-45d2-b42c-5599282ecd9e.png">
+
+<img width="944" alt="Screenshot 2023-03-12 at 11 48 05 PM" src="https://user-images.githubusercontent.com/43849911/224564298-83eb7781-30de-4f50-be81-1da9e714d5a5.png">
+
