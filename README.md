@@ -24,4 +24,5 @@ ApplicationContext loads all the singleton beans upon the startup.
 
 <img width="948" alt="Screenshot 2023-03-12 at 11 49 44 PM" src="https://user-images.githubusercontent.com/43849911/224564363-cbb2b6f0-7ce4-4591-b23c-69254a275db9.png">
 
+<img width="943" alt="Screenshot 2023-03-12 at 11 52 14 PM" src="https://user-images.githubusercontent.com/43849911/224564481-9b120dad-935c-49b3-be03-9d445b3e0f86.png">
 
